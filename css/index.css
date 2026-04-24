@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 4.5rem;
+    border-bottom: 1px solid black;
+    background-color: brown;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+}
+
+header nav {
+    width: 100%;
+    height: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+ul li {
+    list-style-type: none;
+    font-family: "Poppins", sans-serif;
+}
+
+a { 
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.logo span:nth-child(1) {
+    background-color: goldenrod;
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 4px;
+}
+
+.logo span:nth-child(2) {
+    font-weight: 600;
+    color: aliceblue;
+}
+
+header ul {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+header ul a {
+    color: aliceblue;
+}
+
+header ul a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+/* Hero */
+
+.hero {
+    width: 100%;
+    min-height: 120vh;
+    background-image: url("../image/image1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 5;
+    gap: 1.5rem;
+}
+
+
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.1);
+    z-index: 3;
+}
+
+.hero h1 {
+    color: rgb(239, 175, 13);
+    font-weight: 1500;
+    font-size: 3rem;
+    outline-color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+.hero p {
+    color:  rgb(239, 175, 13);
+    font-weight: 900;
+    font-size: 2rem;
+    outline-color: black;
+    
+}
+
+.hero button {
+    border: 1px solid gray;
+    background-color: brown;
+    color: black;
+    font-size: 20px;
+    border-radius: 1.5rem;
+    padding: 1rem 2rem;
+    color: aliceblue;
+}
+
+
+/* features */
+
+.features {
+    background-color: beige;
+}
+
+
+.features h2 {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-size: 3rem;
+    background-color: rgb(185, 182, 182);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.features > p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1.5rem;
+    font-weight: 900;
+    font-size: 1rem;
+    background-color: rgb(185, 182, 182);
+    color: white;
+}
+
+.features div p {
+    background-color: blue;
+    color: white;
+    border: 1px solid;
+    padding: 0.5rem;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:  auto; 
+    width: auto;
+    height: 50rem;
+    
+
+    
+}
+
+
+
+.box div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: fit-content;
+    margin: 0.9rem;
+    gap: 2rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 1.5rem;
+    
+}
+
+.box div:hover {
+    background-color: aliceblue;
+    scale: 1.1;
+}
+
+.box a {
+    border: 1px solid black;
+    padding: 0.5rem;
+    background-color: goldenrod;
+    font-weight: 800;
+    border-radius: 1rem;
+}
+
+.box a:hover {
+    background-color: blue;
+    color: goldenrod;
+}
+
+.box div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    height: 33.85rem;
+}
+
+.box div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    height: 33.85rem;
+}
+
+.box div:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    height: 33.85rem;
+}
+
+.box div:nth-child(4) {
+    display: flex;
+    flex-direction: column;
+    height: 33.85rem;
+}
+
+/* Product Overview */
+
+.product {
+    background-color: beige;
+}
+
+.product h2 {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-size: 3rem;
+    background-color: rgb(185, 182, 182);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.product p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1.5rem;
+    font-weight: 900;
+    font-size: 1rem;
+    background-color: rgb(185, 182, 182);
+    color: white;
+}
+
+.product h3 {
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:  auto; 
+    width: auto;
+    height: 50rem;
+    
+
+    
+}
+
+.product-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: fit-content;
+    margin: 0.9rem;
+    gap: 2rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 1.5rem;
+}
+
+.product-container div:hover {
+    background-color: aliceblue;
+    scale: 1.1;
+}
+
+.product-container a {
+    border: 1px solid black;
+    padding: 0.5rem;
+    background-color: goldenrod;
+    font-weight: 800;
+    border-radius: 1rem;
+}
+
+.product-container a:hover {
+    background-color: blue;
+    color: goldenrod;
+}
+
+.product-container div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    height: 33.85rem;
+}
+
+.product-container div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    height: 33.85rem;
+}
+
+.product-container div:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    height: 33.85rem;
+}
+
+.product-container div:nth-child(4) {
+    display: flex;
+    flex-direction: column;
+    height: 33.85rem;
+}
+
+/* Special Offer */
+
+.special-offer h2 {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-size: 3rem;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.special-offer p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1.5rem;
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.special-offer strong {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: red;
+}
+
+.special-offer {
+    background-color: orange;
+}
+
+/* Why choose us */
+
+.box1 {
+    background-color: beige;
+}
+
+.box1 h2 {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-size: 3rem;
+    gap: 2rem;
+    font-family: "Poppins", sans-serif;
+    
+
+}
+
+.box1 ul {
+    text-align: center;
+    
+
+}
+
+.box1 ul {
+    padding: 2rem;
+}
+
+.box1 ul li {
+    padding: 1rem;
+}
+
+.footer {
+    background-color: yellowgreen;
+    text-align: center;
+    color: aliceblue;
+    height: 3rem;
+    
+}
+
+
