@@ -180,9 +180,11 @@ section {
 
 }
 
-.contact div:nth-child(5) {
-    width: 100vw;
+section > div {
+
+    padding: 2rem 0;
 }
+
 
 .footer {
     background-color: yellowgreen;
