@@ -33,6 +33,21 @@ a {
     text-decoration: none;
 }
 
+header ul {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+header ul a {
+    color: aliceblue;
+}
+
+header ul a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
 .logo {
     display: flex;
     gap: 0.5rem;
@@ -55,20 +70,7 @@ a {
     color: aliceblue;
 }
 
-header ul {
-    display: flex;
-    gap: 1.5rem;
-    align-items: center;
-}
 
-header ul a {
-    color: aliceblue;
-}
-
-header ul a:hover {
-    color: orange;
-    text-decoration: underline;
-}
 
 /* Hero */
 
@@ -113,6 +115,7 @@ header ul a:hover {
 
 section {
     background-color: beige;
+    
 }
 
 .story h2 {
@@ -126,6 +129,7 @@ section {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    margin: 0 2rem;
 }
 
 
@@ -141,6 +145,7 @@ section {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    margin: 0 2rem;
 }
 
 /* Values */
@@ -156,6 +161,7 @@ section {
     flex-direction: column;
     align-items: center;
     gap: 1.5rem;
+    margin: 0 2rem;
 }
 
 /* Guarantee */
@@ -163,12 +169,12 @@ section {
 .guarantee h2 {
     text-align: center;
     font-family: "Poppins", sans-serif;
-    padding: 2rem 0;
+    padding: 2rem 0 0.5rem 0;
 }
 
 .guarantee p {
     text-align: center;
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 .guarantee div {
@@ -176,6 +182,7 @@ section {
     flex-direction: column;
     gap: 1.5rem;
     align-items: center;
+    padding: 2rem;
 }
 
 .footer {

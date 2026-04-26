@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -67,3 +68,129 @@ header ul a:hover {
     color: orange;
     text-decoration: underline;
 }
+
+
+/* Hero */
+
+.hero {
+    width: 100%;
+    min-height: 120vh;
+    background-image: url("../image/image1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 5;
+    gap: 1.5rem;
+}
+
+
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.1);
+    z-index: 3;
+}
+
+.hero h2 {
+    color: rgb(239, 175, 13);
+    font-weight: 1500;
+    font-size: 3rem;
+    outline-color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+section {
+    background-color: beige;
+}
+
+.contact h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.contact h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.contact div {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.contact article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    gap: 0.5rem;
+
+}
+
+.contact input {
+    width: 500px;
+    height: 50px;
+    padding: 0.5rem;
+}
+
+.contact textarea {
+    width: 500px;
+    height: auto;
+    padding: 0.5rem;
+}
+
+.contact button {
+    width: 200px;
+    height: 40px;
+
+}
+
+.contact button:hover {
+    background-color: aliceblue;
+    color: blue;
+    cursor: pointer;
+}
+
+.contact div:nth-child(4) {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem;
+
+}
+
+.contact div:nth-child(5) {
+    width: 100vw;
+}
+
+.footer {
+    background-color: yellowgreen;
+    text-align: center;
+    color: aliceblue;
+    height: 3rem;
+    
+    
+    
+}
+

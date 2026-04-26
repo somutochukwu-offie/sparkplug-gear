@@ -27,12 +27,28 @@ header nav {
 
 ul li {
     list-style-type: none;
-    font-family: "Poppins", sans-serif;
+    
 }
 
 a { 
     text-decoration: none;
 }
+
+header ul {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+header ul a {
+    color: aliceblue;
+}
+
+header ul a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
 
 .logo {
     display: flex;
@@ -56,20 +72,6 @@ a {
     color: aliceblue;
 }
 
-header ul {
-    display: flex;
-    gap: 1.5rem;
-    align-items: center;
-}
-
-header ul a {
-    color: aliceblue;
-}
-
-header ul a:hover {
-    color: orange;
-    text-decoration: underline;
-}
 
 /* All Product */
 
@@ -87,7 +89,7 @@ header ul a:hover {
 .shop-content {
     display: grid;
     grid-template-columns: repeat(4, 400px );
-    grid-template-rows: repeat(4, 400px);
+    grid-template-rows: repeat(auto, 400px);
     margin: 0 2rem;
     padding: 1.5rem;
 }
@@ -129,7 +131,7 @@ header ul a:hover {
 }
 
 .shop-content a:hover {
-    background-color: aliceblue;
+    background-color: yellow;
     color: black;
     scale: 1.1;
 } 

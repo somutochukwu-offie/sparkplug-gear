@@ -27,11 +27,27 @@ header nav {
 
 ul li {
     list-style-type: none;
-    font-family: "Poppins", sans-serif;
+    
 }
 
 a { 
     text-decoration: none;
+}
+
+
+header ul {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+header ul a {
+    color: aliceblue;
+}
+
+header ul a:hover {
+    color: orange;
+    text-decoration: underline;
 }
 
 .logo {
@@ -56,20 +72,6 @@ a {
     color: aliceblue;
 }
 
-header ul {
-    display: flex;
-    gap: 1.5rem;
-    align-items: center;
-}
-
-header ul a {
-    color: aliceblue;
-}
-
-header ul a:hover {
-    color: orange;
-    text-decoration: underline;
-}
 
 /* Hero */
 
