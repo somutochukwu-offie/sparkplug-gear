@@ -179,9 +179,18 @@ section {
 
 }
 
-section > div {
+.faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  font-family: "Poppins", sans-serif;
+  padding: 2rem;  
 
-    width: 100%;
+}
+
+.map {
+  font-family: "Poppins", sans-serif;  
 }
 
 
