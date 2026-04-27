@@ -105,7 +105,6 @@ header ul a:hover {
     color: rgb(239, 175, 13);
     font-weight: 1500;
     font-size: 3rem;
-    outline-color: black;
     font-family: "Poppins", sans-serif;
 }
 
@@ -182,7 +181,7 @@ section {
 
 section > div {
 
-    padding: 2rem 0;
+    width: 100%;
 }
 
 
